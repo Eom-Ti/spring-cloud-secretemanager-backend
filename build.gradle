@@ -38,6 +38,12 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+
 kotlin {
     compilerOptions {
         freeCompilerArgs.addAll '-Xjsr305=strict'

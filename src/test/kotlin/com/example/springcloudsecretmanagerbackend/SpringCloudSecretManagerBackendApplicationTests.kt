@@ -1,10 +1,10 @@
-package com.example.springcloudsecretemanagerbackend
+package com.example.springcloudsecretmanagerbackend
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class SpringCloudSecretemanagerBackendApplicationTests {
+class SpringCloudSecretManagerBackendApplicationTests {
 
     @Test
     fun contextLoads() {

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client-server
+  config:
+    import: optional:localhost:8888
+
+server:
+  port: 8081
+

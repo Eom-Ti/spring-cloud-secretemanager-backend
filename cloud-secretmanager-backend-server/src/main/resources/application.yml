@@ -7,6 +7,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Eom-Ti/spring-cloud-config-sample
-          search-paths: test-cloud-config-file/**
+          uri: https://github.com/Eom-Ti/spring-cloud-secretemanager-backend
+          search-paths: sample-cloud-config/**
           default-label: master
